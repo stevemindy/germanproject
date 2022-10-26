@@ -167,7 +167,7 @@ function LoadGame()
     document.body.style.backgroundImage = "./RoomEvents/RoomStartpoint1.png";
 }
 
-window.onload = ChapterShowOff();
+window.onload = ChapterShowoff();
 
 //window.onload = function () {
 //    wait.play();
