@@ -1,0 +1,60 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Segoe UI', sans-serif;
+    overflow: hidden;
+}
+#logo
+{
+    animation: rainbow linear 5s;
+    font-size: 30px;
+    content: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+}
+.logopos
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+@keyframes opacity
+{
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+@keyframes rainbow
+{
+    0% {background-color: white;}
+    15% {background-color: red;}
+    30% {background-color: yellow;}
+    45% {background-color: blue;}
+    60% {background-color: green;}
+    75% {background-color: purple;}
+    85% {background-color: darkgray;}
+    95% {background-color: black;}
+    100% {background-color: white;}
+}
+#btn
+{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btnpos
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-14vh);
+}

@@ -1,0 +1,161 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', sans-serif;
+    overflow: auto;
+    color: white;
+}
+#storytext
+{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+#game
+{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+#room-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imagestory
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#storytext2
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#room-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img
+{
+    width: 480px;
+}
+body {
+    background-image: url('RoomEvents/RoomStartpoint1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+#interact1
+{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+}
+#interact1:hover
+{
+    cursor: grab;
+}
+#interact1:active
+{
+    cursor: grabbing;
+}
+#interact4
+{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+}
+#interact4:hover
+{
+    cursor: grab;
+}
+#interact4:active
+{
+    cursor: grabbing;
+}
+#interact2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+}
+#interact2:hover
+{
+    cursor: grab;
+}
+#interact2:active
+{
+    cursor: grabbing;
+}
+#interact3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+}
+#interact3:hover
+{
+    cursor: grab;
+}
+#interact3:active
+{
+    cursor: grabbing;
+}
+.interact2pos
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 500px;
+    padding-right: 200px;
+}
+@keyframes textdramatic
+{
+    from {font-size: 42px;}
+    to {font-size: 60px;}
+}
+@keyframes backgrnd
+{
+    0% {background-color: white;}
+    1% {background-color: black;}
+    2% {background-color: white;}
+    3% {background-color: black;}
+    4% {background-color: white;}
+    5% {background-color: black;}
+    6% {background-color: white;}
+    7% {background-color: black;}
+    8% {background-color: white;}
+    9% {background-color: black;}
+    10% {background-color: white;}
+    100% {background-color: black;}
+}
+@keyframes bigger
+{
+    from{width: 480px;}
+    to{width: 800px;}
+}
+@keyframes buhbye
+{
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
