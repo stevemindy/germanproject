@@ -157,18 +157,6 @@ function GoToSto4()
 
 function LoadGame()
 {
-    ambience2.loop = "true";
-    ambience2.play();
-    document.getElementById("game").style.minHeight = "0vh";
-    document.getElementById("imagestory").style.minHeight = "100vh"
-    document.querySelector("img").style.width = "480px";
-    document.querySelector("img").src = "./RoomEvents/RoomStartpoint1.png";
-    document.querySelector("img").style.opacity = 1;
-}
-
-window.onload = 
-
-window.onload = function () {
     wait.play();
     ambience2.loop = "true";
     ambience2.play();
@@ -178,3 +166,16 @@ window.onload = function () {
     document.getElementById("imagestory").style.minHeight = "90vh"
     document.body.style.backgroundImage = "./RoomEvents/RoomStartpoint1.png";
 }
+
+window.onload = ChapterShowOff();
+
+//window.onload = function () {
+//    wait.play();
+//    ambience2.loop = "true";
+//    ambience2.play();
+//    document.getElementById("game").style.minHeight = "0vh";
+//    document.getElementById("storytext2").style.padding = "20px";
+//    document.getElementById("storytext2").innerText = "Room 1"
+//    document.getElementById("imagestory").style.minHeight = "90vh"
+//    document.body.style.backgroundImage = "./RoomEvents/RoomStartpoint1.png";
+//}
