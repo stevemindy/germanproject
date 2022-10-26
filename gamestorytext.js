@@ -167,7 +167,51 @@ function LoadGame()
     document.body.style.backgroundImage = "./RoomEvents/RoomStartpoint1.png";
 }
 
-window.onload = ChapterShowoff();
+//window.onload = ChapterShowoff();
+
+window.onload = function () {
+        knock.play();
+
+    setTimeout(function () {
+
+        document.getElementById("storytext").innerText = "Chapter 2:"
+
+        distortedbass.play();
+
+        impact.play();
+
+    }, 5000)
+
+    setTimeout(function () {
+
+        impact.pause();
+
+        document.getElementById("storytext").innerText = "Finding Escape"
+
+        document.getElementById("storytext").style.animation = "textdramatic 5s linear"
+
+        impact.play();
+
+    }, 10010)
+
+    setTimeout(function () {
+
+        document.body.style.animation = "backgrnd 2.5s linear"
+
+        document.getElementById("storytext").innerText = ""
+
+        crash.play();
+
+        impact1.play();
+
+    }, 15000)
+
+    setTimeout(function () {
+
+        Chapter2();
+
+    }, 23450)
+}
 
 //window.onload = function () {
 //    wait.play();
